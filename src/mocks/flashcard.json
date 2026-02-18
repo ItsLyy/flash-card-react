@@ -1,0 +1,332 @@
+[
+  {
+    "id": "1",
+    "name": "JavaScript Fundamentals",
+    "slug": "javascript-fundamentals",
+    "description": "Master the core concepts of JavaScript including closures, scope, hoisting, and modern ES6+ features. Essential knowledge for every JavaScript developer.",
+    "questions": [
+      {
+        "id": "q1",
+        "name": "What is a closure?",
+        "answer": "A closure is a function that has access to variables in its outer (enclosing) function's scope, even after the outer function has returned."
+      },
+      {
+        "id": "q2",
+        "name": "What is the difference between let and var?",
+        "answer": "let is block-scoped and cannot be redeclared in the same scope, while var is function-scoped and can be redeclared. let also doesn't get hoisted to the top of the scope."
+      },
+      {
+        "id": "q3",
+        "name": "What is event bubbling?",
+        "answer": "Event bubbling is when an event starts from the target element and propagates up through its ancestors in the DOM tree, triggering handlers along the way."
+      },
+      {
+        "id": "q4",
+        "name": "What is the purpose of async/await?",
+        "answer": "async/await is syntactic sugar over Promises that makes asynchronous code look and behave more like synchronous code, improving readability and error handling."
+      },
+      {
+        "id": "q5",
+        "name": "What is the spread operator?",
+        "answer": "The spread operator (...) expands iterables like arrays or objects, allowing you to copy, merge, or pass elements individually."
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "React Basics",
+    "slug": "react-basics",
+    "description": "Learn the fundamental concepts of React including components, hooks, state management, and the virtual DOM. Perfect for beginners starting their React journey.",
+    "questions": [
+      {
+        "id": "q6",
+        "name": "What is JSX?",
+        "answer": "JSX is a syntax extension for JavaScript that allows you to write HTML-like code in your JavaScript files. It gets transpiled to React.createElement() calls."
+      },
+      {
+        "id": "q7",
+        "name": "What are React Hooks?",
+        "answer": "Hooks are functions that let you use state and other React features in functional components. Examples include useState, useEffect, and useContext."
+      },
+      {
+        "id": "q8",
+        "name": "What is the virtual DOM?",
+        "answer": "The virtual DOM is a lightweight copy of the actual DOM. React uses it to efficiently update the UI by comparing changes and only updating what's necessary."
+      },
+      {
+        "id": "q9",
+        "name": "What is props drilling?",
+        "answer": "Props drilling is when you pass data through multiple component layers to reach a deeply nested component, even if intermediate components don't need the data."
+      },
+      {
+        "id": "q10",
+        "name": "What is useEffect used for?",
+        "answer": "useEffect is used for side effects in React components, such as data fetching, subscriptions, DOM manipulation, or setting up timers."
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "TypeScript Essentials",
+    "slug": "typescript-essentials",
+    "description": "Understand TypeScript's type system, interfaces, generics, and advanced features. Level up your JavaScript with static typing and enhanced tooling.",
+    "questions": [
+      {
+        "id": "q11",
+        "name": "What is TypeScript?",
+        "answer": "TypeScript is a superset of JavaScript that adds static typing, enabling better tooling, early error detection, and improved code maintainability."
+      },
+      {
+        "id": "q12",
+        "name": "What is an interface?",
+        "answer": "An interface is a TypeScript construct that defines the structure of an object, specifying what properties and methods it should have."
+      },
+      {
+        "id": "q13",
+        "name": "What is the difference between interface and type?",
+        "answer": "Interfaces can be extended and merged, while types are more flexible and can represent unions, intersections, and primitives. Use interfaces for object shapes."
+      },
+      {
+        "id": "q14",
+        "name": "What are generics?",
+        "answer": "Generics allow you to create reusable components that work with multiple types while maintaining type safety. They're defined using angle brackets like <T>."
+      },
+      {
+        "id": "q15",
+        "name": "What is type inference?",
+        "answer": "Type inference is TypeScript's ability to automatically determine the type of a variable based on its initial value, reducing the need for explicit type annotations."
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "name": "CSS Fundamentals",
+    "slug": "css-fundamentals",
+    "description": "Explore CSS basics including the box model, flexbox, grid, and modern layout techniques. Build beautiful and responsive user interfaces.",
+    "questions": [
+      {
+        "id": "q16",
+        "name": "What is the box model?",
+        "answer": "The CSS box model consists of content, padding, border, and margin. It defines how elements are sized and spaced on a page."
+      },
+      {
+        "id": "q17",
+        "name": "What is flexbox?",
+        "answer": "Flexbox is a CSS layout module that provides an efficient way to align and distribute space among items in a container, even when their size is unknown."
+      },
+      {
+        "id": "q18",
+        "name": "What is CSS Grid?",
+        "answer": "CSS Grid is a two-dimensional layout system that allows you to create complex responsive layouts using rows and columns."
+      },
+      {
+        "id": "q19",
+        "name": "What is specificity?",
+        "answer": "Specificity determines which CSS rule applies when multiple rules target the same element. Inline styles > IDs > Classes > Elements."
+      },
+      {
+        "id": "q20",
+        "name": "What are CSS variables?",
+        "answer": "CSS variables (custom properties) are entities defined by CSS authors that contain specific values to be reused throughout a document, declared with -- prefix."
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "name": "Web Performance",
+    "slug": "web-performance",
+    "description": "Optimize your web applications with performance best practices. Learn about code splitting, lazy loading, memoization, and efficient rendering techniques.",
+    "questions": [
+      {
+        "id": "q21",
+        "name": "What is code splitting?",
+        "answer": "Code splitting is the practice of breaking your application into smaller chunks that can be loaded on demand, reducing initial load time."
+      },
+      {
+        "id": "q22",
+        "name": "What is lazy loading?",
+        "answer": "Lazy loading is a technique where resources (images, components, etc.) are loaded only when needed, rather than all at once on page load."
+      },
+      {
+        "id": "q23",
+        "name": "What is debouncing?",
+        "answer": "Debouncing delays the execution of a function until after a certain amount of time has passed since it was last called, useful for search inputs."
+      },
+      {
+        "id": "q24",
+        "name": "What is throttling?",
+        "answer": "Throttling limits the execution of a function to once every specified time interval, regardless of how many times it's triggered."
+      },
+      {
+        "id": "q25",
+        "name": "What is memoization?",
+        "answer": "Memoization is an optimization technique that stores the results of expensive function calls and returns the cached result when the same inputs occur again."
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "name": "Git & Version Control",
+    "slug": "git-version-control",
+    "description": "Master Git workflows, branching strategies, and collaboration techniques. Essential skills for working in teams and managing your codebase effectively.",
+    "questions": [
+      {
+        "id": "q26",
+        "name": "What is Git?",
+        "answer": "Git is a distributed version control system that tracks changes in source code during software development, allowing multiple developers to collaborate."
+      },
+      {
+        "id": "q27",
+        "name": "What is a branch?",
+        "answer": "A branch is a separate line of development that allows you to work on features or fixes without affecting the main codebase until you're ready to merge."
+      },
+      {
+        "id": "q28",
+        "name": "What is a merge conflict?",
+        "answer": "A merge conflict occurs when Git can't automatically resolve differences between two commits, requiring manual intervention to choose which changes to keep."
+      },
+      {
+        "id": "q29",
+        "name": "What is rebasing?",
+        "answer": "Rebasing moves or combines a sequence of commits to a new base commit, creating a linear history instead of merge commits."
+      },
+      {
+        "id": "q30",
+        "name": "What is a pull request?",
+        "answer": "A pull request is a method of submitting contributions to a project, allowing others to review your changes before they're merged into the main branch."
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "name": "Node.js Basics",
+    "slug": "nodejs-basics",
+    "description": "Get started with server-side JavaScript using Node.js. Learn about modules, async operations, npm packages, and building scalable backend applications.",
+    "questions": [
+      {
+        "id": "q31",
+        "name": "What is Node.js?",
+        "answer": "Node.js is a JavaScript runtime built on Chrome's V8 engine that allows you to run JavaScript on the server side, enabling full-stack JavaScript development."
+      },
+      {
+        "id": "q32",
+        "name": "What is npm?",
+        "answer": "npm (Node Package Manager) is the default package manager for Node.js, used to install, share, and manage dependencies in JavaScript projects."
+      },
+      {
+        "id": "q33",
+        "name": "What is the event loop?",
+        "answer": "The event loop is Node.js's mechanism for handling asynchronous operations, processing callbacks in the queue while the main thread remains non-blocking."
+      },
+      {
+        "id": "q34",
+        "name": "What are middleware functions?",
+        "answer": "Middleware functions are functions that have access to the request, response, and next middleware function in the application's request-response cycle."
+      },
+      {
+        "id": "q35",
+        "name": "What is Express.js?",
+        "answer": "Express.js is a minimal and flexible Node.js web application framework that provides a robust set of features for building web and mobile applications."
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "name": "API Design",
+    "slug": "api-design",
+    "description": "Design robust and scalable APIs following REST principles. Learn about HTTP methods, status codes, authentication, and API best practices.",
+    "questions": [
+      {
+        "id": "q36",
+        "name": "What is REST?",
+        "answer": "REST (Representational State Transfer) is an architectural style for designing networked applications, using HTTP methods to perform CRUD operations on resources."
+      },
+      {
+        "id": "q37",
+        "name": "What are HTTP status codes?",
+        "answer": "HTTP status codes are standardized responses from servers indicating the result of a request: 2xx (success), 3xx (redirect), 4xx (client error), 5xx (server error)."
+      },
+      {
+        "id": "q38",
+        "name": "What is API versioning?",
+        "answer": "API versioning is the practice of managing changes to your API by creating different versions, allowing old clients to continue working while new features are added."
+      },
+      {
+        "id": "q39",
+        "name": "What is JWT?",
+        "answer": "JWT (JSON Web Token) is a compact, URL-safe token format used for securely transmitting information between parties, commonly used for authentication."
+      },
+      {
+        "id": "q40",
+        "name": "What is CORS?",
+        "answer": "CORS (Cross-Origin Resource Sharing) is a security feature that allows or restricts resources on a web page to be requested from another domain."
+      }
+    ]
+  },
+  {
+    "id": "9",
+    "name": "Testing Fundamentals",
+    "slug": "testing-fundamentals",
+    "description": "Write reliable tests for your applications using modern testing frameworks. Cover unit tests, integration tests, and test-driven development practices.",
+    "questions": [
+      {
+        "id": "q41",
+        "name": "What is unit testing?",
+        "answer": "Unit testing is testing individual units or components of code in isolation to ensure they work correctly independently of other parts of the system."
+      },
+      {
+        "id": "q42",
+        "name": "What is integration testing?",
+        "answer": "Integration testing verifies that different modules or components of an application work together correctly when combined."
+      },
+      {
+        "id": "q43",
+        "name": "What is TDD?",
+        "answer": "TDD (Test-Driven Development) is a development approach where you write tests before writing the actual code, ensuring code meets requirements from the start."
+      },
+      {
+        "id": "q44",
+        "name": "What is a mock?",
+        "answer": "A mock is a simulated object that mimics the behavior of real objects in controlled ways, used in testing to isolate the code being tested."
+      },
+      {
+        "id": "q45",
+        "name": "What is code coverage?",
+        "answer": "Code coverage is a metric that measures the percentage of code executed during testing, helping identify untested parts of your application."
+      }
+    ]
+  },
+  {
+    "id": "10",
+    "name": "Database Basics",
+    "slug": "database-basics",
+    "description": "Understand database fundamentals including SQL, NoSQL, data modeling, indexing, and query optimization for building data-driven applications.",
+    "questions": [
+      {
+        "id": "q46",
+        "name": "What is SQL?",
+        "answer": "SQL (Structured Query Language) is a standardized language for managing and manipulating relational databases, used to query, insert, update, and delete data."
+      },
+      {
+        "id": "q47",
+        "name": "What is NoSQL?",
+        "answer": "NoSQL databases are non-relational databases designed for flexibility, scalability, and performance with unstructured or semi-structured data."
+      },
+      {
+        "id": "q48",
+        "name": "What is an index?",
+        "answer": "An index is a database structure that improves the speed of data retrieval operations by creating a lookup mechanism on table columns."
+      },
+      {
+        "id": "q49",
+        "name": "What is normalization?",
+        "answer": "Normalization is the process of organizing data in a database to reduce redundancy and improve data integrity by dividing large tables into smaller ones."
+      },
+      {
+        "id": "q50",
+        "name": "What is a transaction?",
+        "answer": "A transaction is a sequence of database operations treated as a single unit of work, which either completes entirely or is rolled back if any part fails."
+      }
+    ]
+  }
+]
